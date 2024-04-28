@@ -1,32 +1,45 @@
-import { useContext } from "react";
-
-import { Link } from "react-router-dom";
 import classes from "./MainNavigation.module.css";
-import FavoritesContext from "../../store/favorites-context";
 
-function MainNavigation() {
-  const favoritesCtx = useContext(FavoritesContext);
-
+function MainNavigation(props) {
   return (
-    <header className={classes.header}>
-      <div className={classes.logo}>React Meetups</div>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">All Meetups Page</Link>
-          </li>
-          <li>
-            <Link to="/new-meetup">New Meetup</Link>
-          </li>
-          <li>
-            <Link to="/favorites">
-              Favorites{" "}
-              <spam className={classes.badge}>{favoritesCtx.totalFavorites}</spam>
-            </Link>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <>
+    <div>
+      <h2 className={classes.title}>Software Engineer</h2>
+    </div>
+      { false && <div><header className={`${classes.header} ${classes.headerDesktop}` }>
+        <div className={classes.logo}>{props.title}</div>
+        <nav>
+          <ul>
+            <li>
+              <a href="#aboutMe">{props.aboutMe} DESQUETOPE</a>
+            </li>
+            <li>
+              <a href="#skills">{props.skills}</a>
+            </li>
+            <li>
+              <a href="#pastwork">{props.pastWork}</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <header className={`${classes.header} ${classes.headerMobile}` }>
+        <div className={classes.logo}>{props.title}</div>
+        <nav>
+          <ul>
+            <li>
+              <a href="#aboutMe">{props.aboutMe} MOBILE</a>
+            </li>
+            <li>
+              <a href="#skills">{props.skills}</a>
+            </li>
+            <li>
+              <a href="#pastwork">{props.pastWork}</a>
+            </li>
+          </ul>
+        </nav>
+      </header></div> }
+    </>
   );
 }
 

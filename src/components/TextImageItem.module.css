@@ -1,0 +1,50 @@
+.item {
+  margin: 1rem 0;
+}
+
+.image {
+  width: 100%;
+  overflow: hidden;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+.image img {
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.4;
+}
+
+.content {
+  text-align: left;
+  padding: 1rem;
+}
+
+.content h3,
+.content h2,
+.content p {
+  font-size: 1.25rem;
+  color: rgb(226, 216, 216);
+  text-shadow: rgba(117, 176, 192, 0.851) 1px 0 10px;
+}
+
+.gridImageRight {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 60% 40%;
+}
+
+.actions {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  color: #77002e;
+  border: 1px solid #77002e;
+  background-color: transparent;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+}

@@ -1,0 +1,22 @@
+{
+    "mainNavigation": {
+        "title": "Bruno Fátima",
+        "aboutMe": "About me",
+        "skills": "Skills",
+        "pastWork": "Past Work"
+    },"aboutMe": {
+        "title": "About me",
+        "description": "Hello! I'm Bruno and I'm passionate about software development.",
+        "topRegion": "AboutMe"
+    }, "skills": {
+        "title": "Skills",
+        "description": "I hab da skills",
+        "topRegion": "Skills"
+    }, "pastWork": {
+        "title": "Past Work",
+        "description": "I hab da skills",
+        "topRegion": "Past Work"
+    },
+    
+    "botRegion": "#endRegion"
+}

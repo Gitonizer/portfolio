@@ -1,0 +1,14 @@
+p {
+  color: white;
+}
+
+.content {
+  text-align: left;
+  padding: 1rem;
+}
+
+.content h3, .content h2 , .content p{
+  font-size: 1.25rem;
+  color: rgb(226, 216, 216);
+  text-shadow: rgba(117, 176, 192, 0.851) 1px 0 10px;
+}
