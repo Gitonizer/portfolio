@@ -9,6 +9,23 @@
   border-top-left-radius: 6px;
 }
 
+.gridImageRight {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 65% 35%;
+}
+
+@media (max-width: 800px) {
+  .image {
+    display: none;
+  }
+
+  .gridImageRight {
+    display: block;
+    width: 100%;
+  }
+}
+
 .image img {
   width: 100%;
   object-fit: cover;
@@ -26,12 +43,6 @@
   font-size: 1.25rem;
   color: rgb(226, 216, 216);
   text-shadow: rgba(117, 176, 192, 0.851) 1px 0 10px;
-}
-
-.gridImageRight {
-  display: grid;
-  width: 100%;
-  grid-template-columns: 60% 40%;
 }
 
 .actions {

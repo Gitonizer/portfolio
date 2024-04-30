@@ -50,7 +50,7 @@ function App() {
             textBot={botRegion}
             image={process.env.PUBLIC_URL + "/photo_portfolio.png"}
             region="#about"
-          ></TextImageItem>
+          />
         </li>
         <li className={classes.li}>
           <Skills

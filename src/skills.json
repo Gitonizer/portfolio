@@ -1,34 +1,50 @@
 [
     {
-        "id": 0,
-        "name": "C#"
+        "title": "C#",
+        "logo": "csharp-logo.png",
+        "description": "skillz",
+        "media": "https://www.youtube.com/watch?v=sLK26nrQg_c"
     },
     {
-        "id": 1,
-        "name": "C#"
+        "title": "C#",
+        "logo": "",
+        "description": "skillz",
+        "media": "https://buffer.com/library/content/images/2023/10/free-images.jpg"
     },
     {
-        "id": 2,
-        "name": "C#"
+        "title": "C#",
+        "logo": "csharp-logo.png",
+        "description": "skillz",
+        "media": "/videoTeste.mp4"
     },
     {
-        "id": 3,
-        "name": "C#"
+        "title": "C#",
+        "logo": "csharp-logo.png",
+        "description": "skillz",
+        "media": ""
     },
     {
-        "id": 4,
-        "name": "C#"
+        "title": "C#",
+        "logo": "csharp-logo.png",
+        "description": "skillz",
+        "media": ""
     },
     {
-        "id": 5,
-        "name": "C#"
+        "title": "C#",
+        "logo": "csharp-logo.png",
+        "description": "skillz",
+        "media": ""
     },
     {
-        "id": 6,
-        "name": "C#"
+        "title": "C#",
+        "logo": "csharp-logo.png",
+        "description": "skillz",
+        "media": ""
     },
     {
-        "id": 7,
-        "name": "C#"
+        "title": "C#",
+        "logo": "csharp-logo.png",
+        "description": "skillz",
+        "media": ""
     }
 ]

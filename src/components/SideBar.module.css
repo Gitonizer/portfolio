@@ -15,7 +15,7 @@
 .sidebar {
   margin: 0;
   padding: 0;
-  width: 200px;
+  width: 150px;
   background-color: rgba(0, 0, 0, 0.268);
   position: fixed;
   height: 100%;
@@ -43,7 +43,7 @@
   color: white;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 800px) {
   .sidebar {
     width: 60px;
   }

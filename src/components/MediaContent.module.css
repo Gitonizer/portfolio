@@ -1,0 +1,25 @@
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 0px) {
+  .playerWrapper {
+    width: 512px;
+    height: 288px;
+  }
+}
+
+@media (min-width: 800px) {
+  .playerWrapper {
+    width: 320px;
+    height: 180px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .playerWrapper {
+    width: 512px;
+    height: 288px;
+  }
+}

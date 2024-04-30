@@ -1,22 +1,25 @@
 {
-    "mainNavigation": {
-        "title": "Bruno Fátima",
-        "aboutMe": "About me",
-        "skills": "Skills",
-        "pastWork": "Past Work"
-    },"aboutMe": {
-        "title": "About me",
-        "description": "Hello! I'm Bruno and I'm passionate about software development.",
-        "topRegion": "AboutMe"
-    }, "skills": {
-        "title": "Skills",
-        "description": "I hab da skills",
-        "topRegion": "Skills"
-    }, "pastWork": {
-        "title": "Past Work",
-        "description": "I hab da skills",
-        "topRegion": "Past Work"
-    },
-    
-    "botRegion": "#endRegion"
+  "mainNavigation": {
+    "title": "Bruno Fátima",
+    "aboutMe": "About me",
+    "skills": "Skills",
+    "pastWork": "Past Work"
+  },
+  "aboutMe": {
+    "title": "About me",
+    "description": "Hello there! Passionate Software Developer and Engineer, I've learned over the years that it all begins by asking the correct questions. Always willing to learn and discuss all things related to software and always willing to help, my mission has always been all about solving problems the best way I can. Proudly created and maintained serious games for senior citizens, helping them maintain and improve their cognitive abilities.",
+    "topRegion": "AboutMe"
+  },
+  "skills": {
+    "title": "Skills",
+    "description": "I hab da skills",
+    "topRegion": "Skills"
+  },
+  "pastWork": {
+    "title": "Past Work",
+    "description": "I hab da skills",
+    "topRegion": "PastWork"
+  },
+
+  "botRegion": "#endRegion"
 }

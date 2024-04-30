@@ -10,9 +10,6 @@ function Card(props) {
   const sidebarCtx = useContext(SideBarContext);
 
   function handleOnClick() {
-    console.log("sidebar: " + sidebarCtx.currentRegion);
-    console.log("prop: " + props.region)
-    console.log(sidebarCtx.currentRegion == props.region);
     setExpanded(!isExpanded);
   }
 

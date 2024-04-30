@@ -1,5 +1,5 @@
 import classes from "./SideBar.module.css";
-import { CodeBracketIcon } from "@heroicons/react/24/solid";
+import { InformationCircleIcon, AcademicCapIcon, BriefcaseIcon } from "@heroicons/react/24/solid";
 import { useState, useContext } from "react";
 import SideBarContext from "../store/sidebar-context";
 
@@ -22,7 +22,7 @@ function SideBar() {
           handleClick(e, "#about");
         }}
       >
-        <CodeBracketIcon height="30px" />
+        <InformationCircleIcon height="30px" />
         <div className={classes.text}>About Me</div>
       </a>
       <a
@@ -32,7 +32,7 @@ function SideBar() {
           handleClick(e, "#skills");
         }}
       >
-        <CodeBracketIcon height="30px" />
+        <AcademicCapIcon height="30px" />
         <div className={classes.text}>Skills</div>
       </a>
       <a
@@ -42,7 +42,7 @@ function SideBar() {
           handleClick(e, "#pastWork");
         }}
       >
-        <CodeBracketIcon height="30px" />
+        <BriefcaseIcon height="30px" />
         <div className={classes.text}>Past Work</div>
       </a>
     </div>

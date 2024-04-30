@@ -13,11 +13,11 @@ function Skills(props) {
         <p>{props.description}</p>
       </div>
       <div>
-        {skillsFile.map((skill) => {
+        {skillsFile.map((skill, index) => {
           return (
-            <IconText key={skill.id} width="100px">
+            <IconText key={index} width="100px" content={skill}>
               <CheckBadgeIcon color="green" style={{ margin: "auto" }} />
-              <p>{skill.name}</p>
+              <p>{skill.title}</p>
             </IconText>
           );
         })}
