@@ -4,6 +4,7 @@ import classes from "./App.module.css";
 import copy from "./copy.json";
 import VideoPlayer from "./components/VideoPlayer";
 import Skills from "./components/Skills";
+import { useRef } from "react";
 
 function App() {
   const {
@@ -31,6 +32,10 @@ function App() {
     botRegion,
   } = copy;
 
+  const aboutRef = useRef(null);
+  const skillsRef = useRef(null);
+  const pastWorkRef = useRef(null);
+
   return (
     <Layout
       title={mainTitle}
@@ -42,7 +47,7 @@ function App() {
       <div className="wave" />
       <div className="wave" />
       <ul className={classes.ul}>
-        <li className={classes.li}>
+        <li ref={aboutRef} className={classes.li}>
           <TextImageItem
             title={aboutTitle}
             description={aboutDescription}
@@ -50,22 +55,25 @@ function App() {
             textBot={botRegion}
             image={process.env.PUBLIC_URL + "/photo_portfolio.png"}
             region="#about"
+            aboutRef={aboutRef}
           />
         </li>
-        <li className={classes.li}>
+        <li ref={skillsRef} className={classes.li}>
           <Skills
             title={skillsTitle}
             textTop={skillsTopRegion}
             textBot={botRegion}
             region="#skills"
+            skillsRef={skillsRef}
           />
         </li>
-        <li className={classes.li}>
+        <li ref={pastWorkRef} className={classes.li}>
           <VideoPlayer
             title={pastWorkTitle}
             textTop={pastWorkTopRegion}
             textBot={botRegion}
             region="#pastWork"
+            pastWorkRef={pastWorkRef}
           />
         </li>
       </ul>

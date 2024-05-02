@@ -15,7 +15,10 @@ function Modal(props) {
     <>
       <Backdrop onClose={props.onClose} isClosing={props.isClosing} />{" "}
       {/* prop drilling hype! */}
-      <div className={classes.modal + " " + modalStyling}>{props.children}</div>
+      <div className={classes.modal + " " + modalStyling}>
+        <img className={classes.close} src="cross.png" onClick={props.onClose} />
+        {props.children}
+      </div>
     </>
   );
 }

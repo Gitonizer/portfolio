@@ -25,9 +25,10 @@ function IconText(props) {
     <>
       <div
         onClick={onOpenHandler}
-        className={classes.gridImageLeft + " " + classes.card}
+        className={`${classes.gridImageLeft} ${classes.card} ${classes.scaleUp}`}
         style={{
           width: `${props.width}`,
+          fontSize: 14
         }}
       >
         {props.children}
@@ -39,11 +40,11 @@ function IconText(props) {
             <h1>{props.content.title}</h1>
           )}
           {props.content.logo && (
-            <img src={props.content.logo} width="50px" height="50px" />
+            <img src={props.content.logo} alt="logo" width="50px" height="50px" />
           )}
           {props.content.media && <MediaContent media={props.content.media} />}
           {props.content.description && (
-            <p>{process.env.PUBLIC_URL + props.content.description}</p>
+            <p>{props.content.description}</p>
           )}
         </Modal>
       )}

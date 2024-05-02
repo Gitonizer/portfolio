@@ -7,7 +7,7 @@ import Card from "./ui/Card";
 function VideoPlayer(props) {
   // Render a YouTube video player
   return (
-    <Card textTop={props.textTop} textBot={props.textBot} region={props.region}>
+    <Card textTop={props.textTop} textBot={props.textBot} region={props.region} propRef={props.pastWorkRef}>
       <div className={classes.content}>
         <h2>{props.title}</h2>
         <p>{props.description}</p>

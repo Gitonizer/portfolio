@@ -16,7 +16,7 @@ function SideBar() {
   return (
     <div className={classes.sidebar}>
       <a
-        href="#about"
+        href="about"
         className={region == "#about" ? classes.active : ""}
         onClick={(e) => {
           handleClick(e, "#about");

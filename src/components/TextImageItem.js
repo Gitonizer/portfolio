@@ -3,7 +3,7 @@ import classes from "./TextImageItem.module.css";
 
 function TextImageItem(props) {
   return (
-    <Card textTop={props.textTop} textBot={props.textBot} region={props.region}>
+    <Card textTop={props.textTop} textBot={props.textBot} region={props.region} propRef={props.aboutRef}>
       <div className={classes.gridImageRight}>
         <div className={classes.content}>
           <h3>{props.title}</h3>

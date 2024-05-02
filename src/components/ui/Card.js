@@ -1,7 +1,7 @@
 import classes from "./Card.module.css";
 import { useCollapse } from "react-collapsed";
 import { MinusCircleIcon, PlusCircleIcon } from "@heroicons/react/24/solid";
-import { useContext, useState, useEffect } from "react";
+import { useContext, useState, useEffect, useRef } from "react";
 import SideBarContext from "../../store/sidebar-context";
 
 function Card(props) {
@@ -14,7 +14,15 @@ function Card(props) {
   }
 
   useEffect(() => {
-    setExpanded(sidebarCtx.currentRegion == props.region);
+    var activateRegion = sidebarCtx.currentRegion == props.region;
+    setExpanded(activateRegion);
+    if (!props.propRef) {
+      console.log(props.propRef + " is null");
+      return;
+    }
+    if (activateRegion) {
+      props.propRef.current.scrollIntoView();
+    }
   }, [sidebarCtx.currentRegion]);
 
   return (
@@ -28,7 +36,7 @@ function Card(props) {
               <MinusCircleIcon
                 style={{ width: "20px", margin: "auto" }}
                 {...getToggleProps({ onClick: handleOnClick })}
-              />
+              />{" "}
               #region{" "}
             </span>
           ) : (
@@ -37,7 +45,7 @@ function Card(props) {
               {...getToggleProps({ onClick: handleOnClick })}
             />
           )}
-          {props.textTop}
+          {" " + props.textTop}
         </div>
         <div {...getCollapseProps()}>
           {props.children}

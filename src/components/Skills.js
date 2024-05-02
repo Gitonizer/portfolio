@@ -7,7 +7,7 @@ import Card from "./ui/Card";
 
 function Skills(props) {
   return (
-    <Card textTop={props.textTop} textBot={props.textBot} region={props.region}>
+    <Card textTop={props.textTop} textBot={props.textBot} region={props.region} propRef={props.skillsRef}>
       <div className={classes.content}>
         <h2>{props.title}</h2>
         <p>{props.description}</p>
@@ -15,9 +15,22 @@ function Skills(props) {
       <div>
         {skillsFile.map((skill, index) => {
           return (
-            <IconText key={index} width="100px" content={skill}>
-              <CheckBadgeIcon color="green" style={{ margin: "auto" }} />
-              <p>{skill.title}</p>
+            <IconText key={index} width="110px" content={skill}>
+              {skill.logo ? (
+                <img
+                  src={process.env.PUBLIC_URL + skill.logo}
+                  width={"30px"}
+                  height={"30px"}
+                />
+              ) : (
+                <CheckBadgeIcon
+                  color="green"
+                  style={{ margin: "auto" }}
+                  width={"30px"}
+                  height={"30px"}
+                />
+              )}
+              <p>{" " + skill.title}</p>
             </IconText>
           );
         })}
