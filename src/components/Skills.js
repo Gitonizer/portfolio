@@ -18,7 +18,7 @@ function Skills(props) {
             <IconText key={index} width="110px" content={skill}>
               {skill.logo ? (
                 <img
-                  src={process.env.PUBLIC_URL + skill.logo}
+                  src={skill.logo}
                   width={"30px"}
                   height={"30px"}
                 />

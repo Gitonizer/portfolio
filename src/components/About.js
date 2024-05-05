@@ -1,7 +1,7 @@
 import Card from "./ui/Card";
-import classes from "./TextImageItem.module.css";
+import classes from "./About.module.css";
 
-function TextImageItem(props) {
+function About(props) {
   return (
     <Card textTop={props.textTop} textBot={props.textBot} region={props.region} propRef={props.aboutRef}>
       <div className={classes.gridImageRight}>
@@ -18,4 +18,4 @@ function TextImageItem(props) {
   );
 }
 
-export default TextImageItem;
+export default About;

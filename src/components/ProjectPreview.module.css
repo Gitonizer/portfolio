@@ -1,0 +1,37 @@
+.image {
+  border: 3px solid rgba(214, 208, 208, 0.2);
+}
+
+.scaleUp:hover {
+  box-shadow: 0 2px 8px rgba(214, 208, 208, 0.2);
+  animation-name: scaleUpAnim;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
+
+.fadeInOut:hover {
+  animation-name: fadeInOutAnim;
+  animation-duration: 1.6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes scaleUpAnim {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes fadeInOutAnim {
+  0% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
