@@ -54,7 +54,7 @@ function ProjectPreview(props) {
     <>
       <img
         onClick={onOpenHandler}
-        className={`${classes.fadeInOut} ${classes.scaleUp} ${classes.image}`}
+        className={`${classes.elementAnim} ${classes.image}`}
         src={process.env.PUBLIC_URL + currentImage}
         onMouseOver={startSlideShow}
         onMouseOut={stopSlideShow}
