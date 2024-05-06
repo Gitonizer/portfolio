@@ -34,14 +34,14 @@ function Card(props) {
           {isExpanded || sidebarCtx.currentRegion == props.currentRegion ? (
             <span>
               <MinusCircleIcon
-                style={{ width: "20px", margin: "auto" }}
+                style={{ width: "20px", margin: "auto", cursor: "pointer" }}
                 {...getToggleProps({ onClick: handleOnClick })}
               />{" "}
               #region{" "}
             </span>
           ) : (
             <PlusCircleIcon
-              style={{ width: "20px", margin: "auto" }}
+              style={{ width: "20px", margin: "auto", cursor: "pointer" }}
               {...getToggleProps({ onClick: handleOnClick })}
             />
           )}

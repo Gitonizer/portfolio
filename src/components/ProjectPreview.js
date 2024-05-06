@@ -55,12 +55,13 @@ function ProjectPreview(props) {
       <img
         onClick={onOpenHandler}
         className={`${classes.fadeInOut} ${classes.scaleUp} ${classes.image}`}
-        src={currentImage}
+        src={process.env.PUBLIC_URL + currentImage}
         onMouseOver={startSlideShow}
         onMouseOut={stopSlideShow}
         alt="project"
         width="100px"
         height="100px"
+        style={{cursor: "pointer"}}
       />
 
       {isOpen && (
@@ -71,7 +72,7 @@ function ProjectPreview(props) {
           {props.project.logo && (
             <img
               className={classes.image}
-              src={props.project.logo}
+              src={process.env.PUBLIC_URL + props.project.logo}
               alt="logo"
               width="50px"
               height="50px"

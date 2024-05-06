@@ -1,49 +1,49 @@
 [
   {
     "title": "C#",
-    "logo": "logos/csharp-logo.png",
+    "logo": "/logos/csharp-logo.png",
     "description": "C# is the main programming language I use. During my license degree, I learned C# in order to learn general programming fundamentals and also OOP principles. C# was also used with Monogame and Unity. On a professional context, I use it mostly on Unity whether I'm working for a company or whether I'm teaching classes at the polytecnhic I graduated at. I also used C# professionaly on WPF by adding features and implementing localization.",
     "media": ""
   },
   {
     "title": "Unity",
-    "logo": "logos/unity-logo.png",
+    "logo": "/logos/unity-logo.png",
     "description": "Unity is the main tool I use professionally. During my license degree, I used it to learn game development and gain experience through project creation. For work, I have focused on serious games and apps for the elderly, with a big emphasis on UX and adaptability to the users. I also taught Unity on the university I graduated in for an introductory class.",
     "media": ""
   },
   {
     "title": "Github",
-    "logo": "logos/github-logo.png",
+    "logo": "/logos/github-logo.png",
     "description": "Github is the source control tool I use professionally and personally. Along with git bash, it allows me to manage the projects' code whether I'm alone or within a team. Between Pull Requests, being able to easily consult the codebase's change history and easy deployment pipelines with the help of Github actions, Github is one of the best tools a software developer can use. This very website is hosted on my Github account!",
     "media": ""
   },
   {
     "title": "REST",
-    "logo": "logos/restapi-logo.png",
+    "logo": "/logos/restapi-logo.png",
     "description": "REST API is the architecture I've worked with professionally throughout the years. Since I've always had more of a frontend role, I was always responsible for ensuring that my apps were correctly sending and retrieving data to and from our backend, always cooperating with my colleagues in order to find the best ways to implement our API usage.",
     "media": ""
   },
   {
     "title": "Android",
-    "logo": "logos/androidstudio-logo.png",
+    "logo": "/logos/androidstudio-logo.png",
     "description": "My relationship with Android studio comes from porting Unity games to Android on a professional environment. I have had several reasons to explore this IDE. The first one was generating and deploying unity games as libraries. The second one was researching the company's Kotlin codebase to reverse engineer features and implement them on my own codebase. The third one was writing AAR files in the context of porting Unity games: The code in these AAR files ranged from the simple hiding of Android OS elements to communication between the product's apps using AIDL.",
     "media": ""
   },
   {
     "title": "Javascript",
-    "logo": "logos/js-logo.png",
+    "logo": "/logos/js-logo.png",
     "description": "I used Javascript on many occasions. I used it on an internship and later on a simple Angular 1 landing page for a company I worked for. After that, I used it when I ported Unity games to the Web by writing native code for a couple of purposes: the first purpose was to create a communication system between the games and our launcher web application and the second purpose was to base a responsive UI system on a native javascript window resize event. Finally, I used JS to create this portfolio with the help of the React library.",
     "media": ""
   },
   {
     "title": "ReactJS",
-    "logo": "logo512.png",
+    "logo": "/logo512.png",
     "description": "I've always been somewhat exposed to ReactJS since it was part of the stack on one of the companies I worked with. I took an interest to react and learned it so I can understand the fundamentals of modern web frontend development. This portfolio is powered by ReactJS developed by me.",
     "media": ""
   },
   {
     "title": "Photopea",
-    "logo": "logos/photopea-logo.png",
+    "logo": "/logos/photopea-logo.png",
     "description": "Photopea helped me greatly on some professional projects. It is basically a free version of photoshop that works on multiple Operative Systems since it can be used on the Web. Examples of photopea usage are creating atlas files for Unity (needed for performance optimizations, specially on android devices) and other projects. Photopea was a key tool I used on a coloring app I created that had a very tricky development cycle where I needed to employ heavy exploration on image assets to refine and perfect the app's experience.",
     "media": ""
   }

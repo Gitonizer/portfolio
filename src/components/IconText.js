@@ -28,7 +28,8 @@ function IconText(props) {
         className={`${classes.gridImageLeft} ${classes.card} ${classes.scaleUp}`}
         style={{
           width: `${props.width}`,
-          fontSize: 14
+          fontSize: 14,
+          cursor: "pointer"
         }}
       >
         {props.children}
@@ -40,7 +41,7 @@ function IconText(props) {
             <h1>{props.content.title}</h1>
           )}
           {props.content.logo && (
-            <img src={props.content.logo} alt="logo" width="50px" height="50px" />
+            <img src={process.env.PUBLIC_URL + props.content.logo} alt="logo" width="50px" height="50px" />
           )}
           {props.content.media && <MediaContent media={props.content.media} />}
           {props.content.description && (

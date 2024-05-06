@@ -64,6 +64,7 @@
 .close {
   cursor: pointer;
   position: absolute;
+  border: 3px solid rgba(214, 208, 208, 0.2);
   top: 0;
   right: 0;
   width: 48px;

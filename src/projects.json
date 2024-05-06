@@ -1,43 +1,43 @@
 [
   {
     "title": "Sioslife",
-    "logo": "projects/sioslife/sioslife-logo.png",
+    "logo": "/projects/sioslife/sioslife-logo.png",
     "description": "This is a compilation of the work I've done for Sioslife.",
     "media": "https://youtu.be/fk3lSlaLKdk",
     "slideShowImages": [
-      "projects/sioslife/sioslife-logo.png",
-      "projects/sioslife/sios-1.png",
-      "projects/sioslife/sios-2.png",
-      "projects/sioslife/sios-3.png",
-      "projects/sioslife/sios-4.png",
-      "projects/sioslife/sios-5.png",
-      "projects/sioslife/sios-6.png",
-      "projects/sioslife/sios-7.png",
-      "projects/sioslife/sios-8.png"
+      "/projects/sioslife/sioslife-logo.png",
+      "/projects/sioslife/sios-1.png",
+      "/projects/sioslife/sios-2.png",
+      "/projects/sioslife/sios-3.png",
+      "/projects/sioslife/sios-4.png",
+      "/projects/sioslife/sios-5.png",
+      "/projects/sioslife/sios-6.png",
+      "/projects/sioslife/sios-7.png",
+      "/projects/sioslife/sios-8.png"
     ],
     "link": ""
   },
   {
     "title": "Mágico",
-    "logo": "projects/magico/magico-1.png",
+    "logo": "/projects/magico/magico-1.png",
     "description": "This game was made to teach some gamedev features on a master's degree.",
     "media": "https://youtu.be/1mMsXd7lFSQ",
     "slideShowImages": [
-      "projects/magico/magico-1.png",
-      "projects/magico/magico-2.png",
-      "projects/magico/magico-3.png"
+      "/projects/magico/magico-1.png",
+      "/projects/magico/magico-2.png",
+      "/projects/magico/magico-3.png"
     ],
     "link": "https://github.com/Gitonizer/DMJ/releases/download/v0.1.0/Magico.zip"
   },
   {
     "title": "Scuffed Invaders",
-    "logo": "projects/scuffedinvaders/scuffed-1.png",
+    "logo": "/projects/scuffedinvaders/scuffed-1.png",
     "description": "This was a challenge where I tried to recreate Space Invaders from memory.",
     "media": "https://youtu.be/mdUMnrvUPng",
     "slideShowImages": [
-      "projects/scuffedinvaders/scuffed-1.png",
-      "projects/scuffedinvaders/scuffed-2.png",
-      "projects/scuffedinvaders/scuffed-3.png"
+      "/projects/scuffedinvaders/scuffed-1.png",
+      "/projects/scuffedinvaders/scuffed-2.png",
+      "/projects/scuffedinvaders/scuffed-3.png"
     ],
     "link": "https://github.com/Gitonizer/scuffedinvaders/releases/download/v0.1.0/ScuffedInvaders.zip"
   }

@@ -16,7 +16,7 @@ function Modal(props) {
       <Backdrop onClose={props.onClose} isClosing={props.isClosing} />{" "}
       {/* prop drilling hype! */}
       <div className={classes.modal + " " + modalStyling}>
-        <img className={classes.close} src="cross.png" onClick={props.onClose} />
+        <img className={classes.close} src={process.env.PUBLIC_URL + "/cross.png"} onClick={props.onClose} />
         {props.children}
       </div>
     </>

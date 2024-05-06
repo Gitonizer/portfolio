@@ -18,9 +18,10 @@ function Skills(props) {
             <IconText key={index} width="110px" content={skill}>
               {skill.logo ? (
                 <img
-                  src={skill.logo}
+                  src={process.env.PUBLIC_URL + skill.logo}
                   width={"30px"}
                   height={"30px"}
+                  alt={skill.title}
                 />
               ) : (
                 <CheckBadgeIcon
