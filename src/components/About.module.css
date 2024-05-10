@@ -5,8 +5,11 @@
 .image {
   width: 100%;
   overflow: hidden;
-  border-top-right-radius: 6px;
   border-top-left-radius: 6px;
+}
+
+.fadeOut {
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
 }
 
 .gridImageRight {

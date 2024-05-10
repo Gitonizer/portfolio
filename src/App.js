@@ -53,7 +53,7 @@ function App() {
             description={aboutDescription}
             textTop={aboutTopRegion}
             textBot={botRegion}
-            image={process.env.PUBLIC_URL + "/photo_portfolio.png"}
+            image={process.env.PUBLIC_URL + "/me.jpg"}
             region="#about"
             aboutRef={aboutRef}
           />

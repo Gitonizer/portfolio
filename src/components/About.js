@@ -11,7 +11,7 @@ function About(props) {
         </div>
 
         <div className={classes.image}>
-          <img src={props.image} alt={props.title} />
+          <img src={props.image} className={classes.fadeOut} alt={props.title} />
         </div>
       </div>
     </Card>
