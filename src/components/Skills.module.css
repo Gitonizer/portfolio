@@ -1,3 +1,9 @@
+.skillsContent {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: space-evenly;
+}
+
 p {
   color: white;
 }
@@ -11,4 +17,16 @@ p {
   font-size: 1.25rem;
   color: rgb(226, 216, 216);
   text-shadow: rgba(117, 176, 192, 0.851) 1px 0 10px;
+  text-align: center;
+}
+
+@media (min-width: 800px) {
+  .skillsContent {
+    grid-template-columns: 25% 25% 25% 25%;
+    row-gap: 10px;
+    max-width: 70%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

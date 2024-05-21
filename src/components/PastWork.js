@@ -11,10 +11,10 @@ function PastWork(props) {
         <h2>{props.title}</h2>
         <p>{props.description}</p>
       </div>
-      <ul>
+      <ul className={classes.ul}>
         {projects.map((project, index) => {
           return (
-            <li key={index}>
+            <li className={classes.li} key={index}>
               {project.media && <ProjectPreview project={project} />}
             </li>
           );

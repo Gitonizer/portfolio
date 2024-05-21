@@ -1,11 +1,11 @@
-ul {
+.ul {
   margin: 0 auto;
   text-align: center;
   max-width: 100vw;
   padding-left: 0;
 }
 
-li {
+.li {
   display: inline-block;
   vertical-align: top;
   margin: 5px;
@@ -28,4 +28,5 @@ li {
   font-size: 1.25rem;
   color: rgb(226, 216, 216);
   text-shadow: rgba(117, 176, 192, 0.851) 1px 0 10px;
+  text-align: center;
 }

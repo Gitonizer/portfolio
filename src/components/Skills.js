@@ -12,7 +12,7 @@ function Skills(props) {
         <h2>{props.title}</h2>
         <p>{props.description}</p>
       </div>
-      <div>
+      <div className={classes.skillsContent}>
         {skillsFile.map((skill, index) => {
           return (
             <IconText key={index} width="110px" content={skill}>
