@@ -1,0 +1,45 @@
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-size: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 100px;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+}
+
+@media (max-width: 1060px) {
+  .title {
+    font-size: 0.9rem;
+    text-align: left;
+  }
+  .header {
+    margin: auto 30px;
+  }
+  .socialIcons {
+    column-gap: 5px;
+  }
+}
+
+@media (min-width: 1060px) {
+  .title {
+    font-size: 2.3rem;
+    text-indent: 100px;
+  }
+  .header {
+    margin: auto 100px;
+  }
+  .socialIcons {
+    column-gap: 10px;
+  }
+}
