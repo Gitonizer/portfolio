@@ -10,8 +10,8 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin: auto 100px;
   border-bottom: 1px solid rgb(143, 94, 192);
+  width: 75vw;
 }
 
 .socialIcons {
@@ -22,11 +22,11 @@
 
 @media (max-width: 1060px) {
   .title {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     text-align: left;
   }
   .header {
-    margin: auto 30px;
+    margin: auto;
   }
   .socialIcons {
     column-gap: 5px;
@@ -38,7 +38,7 @@
     font-size: 2.3rem;
   }
   .header {
-    margin: auto 100px;
+    margin: auto;
   }
   .socialIcons {
     column-gap: 10px;
