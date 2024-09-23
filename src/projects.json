@@ -40,5 +40,18 @@
       "/projects/scuffedinvaders/scuffed-3.png"
     ],
     "link": "https://github.com/Gitonizer/scuffedinvaders/releases/download/v0.1.0/ScuffedInvaders.zip"
+  },
+  {
+    "title": "Sappling Support Services",
+    "logo": "/projects/sappling/sappling-1.png",
+    "description": "1st prize Kendir Studios GameJam game 2024. Developed 3 mini games.",
+    "media": "https://youtu.be/R2GbV_JXQps",
+    "slideShowImages": [
+      "/projects/sappling/sappling-1.png",
+      "/projects/sappling/sappling-2.png",
+      "/projects/sappling/sappling-3.png",
+      "/projects/sappling/sappling-4.png"
+    ],
+    "link": "https://shiroexe.itch.io/sapling-support-services"
   }
 ]

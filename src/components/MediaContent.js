@@ -20,7 +20,13 @@ function MediaContent(props) {
 
   return (
     <>
-      {isMediaImage() && <img src={props.media} width="100px" height="100px" />}
+      {isMediaImage() && (
+        <img
+          src={process.env.PUBLIC_URL + props.media}
+          width="100px"
+          height="100px"
+        />
+      )}
       {(isMediaVideo() || isMediaUrl()) && !isMediaImage() && (
         <div className={classes.content}>
           <div className={classes.playerWrapper}>
